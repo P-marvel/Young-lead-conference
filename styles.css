@@ -38,7 +38,6 @@ input, select {
 	border: none;
 	border-radius: 20px;
 	width: 100px;
-	margin-left: 40%;
 }
 #submit:hover {
 	background-color: yellow;
