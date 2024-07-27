@@ -1,51 +1,49 @@
-body{
-			background-color:#f4f4f4 ;
-			display: flex;
-			justify-content: center;
-			margin: 0;
-			height: 100%;
-
-		}
-		form{
-			display: flex;
-			flex-direction: column;
-		}
-		input,select{
-			height: 30px;
-		}
-		
-		#form{
-			height: auto;
-			box-shadow: 0px 0px 10px rgba(0, 0, 0, 1.0);
-			width: 80%;
-			padding: 10px;
-			background-color: white ;
-			max-width: 500px;
-			font-weight: bold;
-		}
-		#head{
-			background-color: green;
-			color: yellow;
-			border: none;
-			border-radius: 10px;
-			text-align: center;
-			margin-top: 10px;
-			padding: 1px;
-			font-size:16px ;
-		}
-		#submit{
-			background-color: green;
-			height: 30px;
-			color: yellow;
-			border: none;
-			border-radius: 20px;
-			width: 100px;
-			margin-left: 40%;
-		}
-		#submit:hover{
-			background-color: yellow;
-			color: green;
-		}
-		#submit:active{
-			opacity: 0.7;
-		}
+body {
+	background-color: #f4f4f4;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+form {
+	display: flex;
+	flex-direction: column;
+}
+input, select {
+	height: 30px;
+}
+#form {
+	height: auto;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 1.0);
+	width: 80%;
+	padding: 10px;
+	background-color: white;
+	max-width: 500px;
+	font-weight: bold;
+	margin: auto;
+}
+#head {
+	background-color: green;
+	color: yellow;
+	border: none;
+	border-radius: 10px;
+	text-align: center;
+	margin-top: 10px;
+	padding: 1px;
+	font-size: 16px;
+}
+#submit {
+	background-color: green;
+	height: 30px;
+	color: yellow;
+	border: none;
+	border-radius: 20px;
+	width: 100px;
+	margin-left: 40%;
+}
+#submit:hover {
+	background-color: yellow;
+	color: green;
+}
+#submit:active {
+	opacity: 0.7;
+}
